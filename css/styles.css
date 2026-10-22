@@ -1,7 +1,14 @@
-/* quito los espacio predetimando del navegador así es más facil calcular el tamaño de los elementos. */
+/* quito los espacio predetimando del navegador así es más facil calcular el tamaño de los elementos. Y añado el tipo de fuente*/
 * { 
     margin:0; 
     padding:0; 
-    box-sizing:border-box; 
+    box-sizing:border-box;
+    font-family: "Roboto", sans-serif;
 }
-/* Acá edito el index */
+/* pongo el fondo de esta manera */
+body{
+    background-image: url(img/paisaje5.jpg); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
