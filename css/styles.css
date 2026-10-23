@@ -8,13 +8,15 @@
 :root{
     --blanco:#fff; 
     --verde:#83d6a8; 
-    --verde-oscuro:#4fa584;
+    --verde-claro-oscuro: #65b995;
+    --verde-oscuro:#4fa584;    
     --verde-oscuro-sombra: #2f9b7855;
 
 }
 body{
     height: 80vh;
-    background-image: url(/assets/img/paisaje5.jpg); 
+    background-image: linear-gradient( 90deg, rgba(0, 22, 32, 0.87), rgba(3, 34, 44, 0.54) 60%, rgba(3, 30, 38, 0.25)), url(/assets/img/paisaje5.jpg);
+     /* En la linea 18, use un recurso que aplico ChatGPT en una web mientras experimentaba su forma de trabajar, y de paso estudiar como escribía los códigos de css. Me encontré con el problema que el fondon era muy blanco con letras blancas y decidí copiar este recurso. */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -26,8 +28,47 @@ body{
     color: var(--verde-oscuro);
 }
 nav{
-    background-color: brown;
     padding: 25px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+
 }
+.logoN{
+    color: inherit;
+    text-decoration: none;
+    font-size: 17px; 
+    font-weight:700; 
+    letter-spacing:2px;
+}
+.navtex{
+    display: flex;
+    gap: 20px;
+}
+.navtex a{
+    color: inherit;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+.navtex a:hover {
+    color: var(--verde);
+}
+.navtex2{
+    color: inherit;
+    text-decoration: none;
+    letter-spacing: 1px;
+    background: var(--verde-oscuro);
+    padding: 17px 20px;
+    border-radius: 20px;
+    font-weight: 500;
+    text-decoration: none;
+    transition: color 0.3s;    
+}
+.navtex2:hover{
+    background-color: var(--verde-claro-oscuro);
+}
+
