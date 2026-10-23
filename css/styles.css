@@ -1,14 +1,33 @@
-/* quito los espacio predetimando del navegador así es más facil calcular el tamaño de los elementos. Y añado el tipo de fuente*/
 * { 
     margin:0; 
     padding:0; 
     box-sizing:border-box;
-    font-family: "Roboto", sans-serif;
+
 }
-/* pongo el fondo de esta manera */
+
+:root{
+    --blanco:#fff; 
+    --verde:#83d6a8; 
+    --verde-oscuro:#4fa584;
+    --verde-oscuro-sombra: #2f9b7855;
+
+}
 body{
-    background-image: url(img/paisaje5.jpg); 
+    height: 80vh;
+    background-image: url(/assets/img/paisaje5.jpg); 
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+}
+.logo{
+    color: var(--verde-oscuro);
+}
+nav{
+    background-color: brown;
+    padding: 25px;
+    display: flex;
+    justify-content: space-between;
 }
