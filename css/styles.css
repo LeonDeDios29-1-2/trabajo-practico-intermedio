@@ -2,16 +2,13 @@
     margin:0; 
     padding:0; 
     box-sizing:border-box;
-
 }
-
 :root{
     --blanco:#fff; 
     --verde:#83d6a8; 
     --verde-claro-oscuro: #65b995;
     --verde-oscuro:#4fa584;    
     --verde-oscuro-sombra: #2f9b7855;
-
 }
 body{
     height: 80vh;
@@ -25,6 +22,7 @@ body{
     color: #fff;
     margin: 25px;
 }
+
 /* Acá edito el hover donde lo aplico en todas las multipague */
 .logo{
     color: var(--verde-oscuro);
@@ -75,7 +73,6 @@ nav{
 }
 /* Acá edito el footer donde lo aplico en todas las multipague */
 footer{
-    /* background-color: bisque; */
     display: flex;
     justify-content: space-between;
     padding: 15px 105px 25px 115px;
@@ -137,7 +134,6 @@ filter: drop-shadow(0 35px 45px white);
     font-weight: 300;
 }
 
-
 /* Acá edito index.html */
 #sectionIndex{
     display: flex;
@@ -162,7 +158,6 @@ filter: drop-shadow(0 35px 45px white);
 .text1{
     display: flex;
     justify-content: center;
-    /* background-color: aqua; */
     width: 50%;
     flex-direction: column;
 }
@@ -217,4 +212,52 @@ filter: drop-shadow(0 35px 45px white);
 }
 .boton2:hover{
     background-color: var(--verde-claro-oscuro);
+}
+/* Acá edito asesores.html */
+#asesores{
+    margin: 25px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+#asesores h2{
+    padding: 25px 0 25px 0;
+    font-size: 25px; 
+    font-weight:800; 
+    letter-spacing: 1.6px;
+}
+.asesores-p{
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+    text-align: justify;
+}
+.perfil-asesores{
+    display: flex;
+    flex-direction: column;}
+.picasesor{
+    width: 200px;
+    height: auto;
+    border-radius: 50%;
+    /* No se porque no me queda redondo, pero quedo lindo :P */
+    padding: 0 25px 25px 0;
+}
+.asesor{
+    display: flex;
+}
+.asesor-h3{
+    padding: 25px 0 25px 0;
+    font-weight: 600;
+    font-size: 17px;    
+    letter-spacing: 1px;
+    text-align: justify;
+}
+.asesor-p{
+    width: 75%;
+    padding-right: 45px;
+    font-weight: 300;
+    font-size: 13px;    
+    letter-spacing: 1px;
+    text-align: justify;
 }
