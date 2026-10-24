@@ -261,3 +261,58 @@ filter: drop-shadow(0 35px 45px white);
     letter-spacing: 1px;
     text-align: justify;
 }
+
+/* Acá edito contracto.html */
+#contacto{
+    display: flex;
+    /* flex-direction: column; */
+    margin: 25px;
+    text-align: justify;
+}
+.contacto2{
+    flex-direction: column;
+}
+.contacto-h2{
+    padding: 25px 0 25px 0;
+    font-size: 25px; 
+    font-weight:800; 
+    letter-spacing: 1.6px;
+}
+.contacto-p{
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;
+    letter-spacing: 1.3px;
+    padding-bottom: 25px;
+}
+.formulario{
+    width: 50%;
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 1.6;
+    letter-spacing: 1.3px;
+}
+.form-casillas, .form-text-area, .form-text{
+    padding-bottom: 25px;
+}
+.send{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.form-botton{
+    color: inherit;
+    font-family: inherit;
+    font-size: 16px;
+    letter-spacing: 1px;
+    background-color: var(--verde-oscuro);
+    padding: 17px 25px;
+    border: none;
+    border-radius: 20px;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;    
+}
+.form-botton:hover {
+    background-color: var(--verde-claro-oscuro);
+}
