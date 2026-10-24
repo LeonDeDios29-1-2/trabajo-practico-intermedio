@@ -90,6 +90,7 @@ filter: drop-shadow(0 35px 45px white);
 /* Le consulte a chatGPT para darle sombra al logo */
 }
 .redes h3{
+    padding-bottom: 15px;
     font-size: 23px;
     letter-spacing: 1.6px;
     font-weight: 500;
@@ -103,6 +104,13 @@ filter: drop-shadow(0 35px 45px white);
     display: flex;
     flex-direction: column;
 }
+.redes{
+    filter: drop-shadow(0 35px 45px white);
+} 
+
+.accesosdirectos{
+    filter: drop-shadow(0 35px 45px white);
+}
 .redes a, .accesosdirectos a{
     color: inherit;
     text-decoration: none;
@@ -111,10 +119,23 @@ filter: drop-shadow(0 35px 45px white);
     width: 55px;
     height: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
-
+.redes div{
+    gap: 10px;
+}
+.accesosdirectos h3{
+    padding-bottom: 15px;
+    font-size: 23px;
+    letter-spacing: 1.6px;
+    font-weight: 500;
+}
+.accesosdirectos a{
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: 300;
+}
 
 
 /* Acá edito index.html */
