@@ -28,9 +28,7 @@ body{
     color: var(--verde-oscuro);
 }
 nav{
-    padding-left: 25px;
-    padding-right: 25px;
-    padding-top: 10px;
+    padding: 10px 25px 0 25px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -477,4 +475,19 @@ filter: drop-shadow(0 35px 45px white);
     font-weight: 400;
     font-size: 17px;
     line-height: 1.6;     
+}
+/* Acá es donde edito la configuración para celulares */
+@media (max-width: 730px){
+    #sectionIndex, #asesores, #contacto, #experiencias, #galeria, #nosotros {
+        width: 100%;
+    }
+    nav, footer, .navtex, .navtex2 {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 7.5px;
+        margin-bottom: 7.5px;
+    }
+
 }
