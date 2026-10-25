@@ -447,3 +447,34 @@ filter: drop-shadow(0 35px 45px white);
     display: flex;
     gap: 25px;
 }
+/* Acá edito nosotros.html */
+#nosotros{
+    margin: 25px;
+    text-align: justify;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+#nosotros h1{
+    padding-bottom: 25px;
+    font-size: 35px; 
+    font-weight:800; 
+    letter-spacing: 1.1px;
+}
+#nosotros h2{
+    padding-bottom: 25px;
+    font-size: 25px; 
+    font-weight:800; 
+    letter-spacing: 1.1px;     
+}
+#nosotros h3{
+    padding-bottom: 25px;
+    font-weight: 600;
+    font-size: 20px;    
+    letter-spacing: 1.1px;    
+}
+#nosotros p{
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;     
+}
