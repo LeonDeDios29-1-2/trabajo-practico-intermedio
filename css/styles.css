@@ -477,16 +477,24 @@ filter: drop-shadow(0 35px 45px white);
 }
 /* Acá es donde edito la configuración para celulares */
 @media (max-width: 730px){
-    #sectionIndex, #asesores, #contacto, #experiencias, #galeria, #nosotros {
+    #sectionIndex, #asesores, #contacto, #experiencia, #galeria, #nosotros {
         width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
     }
-    nav, footer, .navtex, .navtex2 {
+    nav, footer, .navtex, .navtex2, .h2index, .botones {
         width: 100%;
         display: flex;
         align-items: center;
         flex-direction: column;
         margin-top: 7.5px;
         margin-bottom: 7.5px;
+        gap: 15px;
+    }
+    .text1, .text2 {
+        width: 100%;
     }
 
 }
