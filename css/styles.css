@@ -262,10 +262,9 @@ filter: drop-shadow(0 35px 45px white);
     text-align: justify;
 }
 
-/* Acá edito contracto.html */
+/* Acá edito contacto.html */
 #contacto{
     display: flex;
-    /* flex-direction: column; */
     margin: 25px;
     text-align: justify;
 }
@@ -315,4 +314,15 @@ filter: drop-shadow(0 35px 45px white);
 }
 .form-botton:hover {
     background-color: var(--verde-claro-oscuro);
+}
+/* Acá edito experiencias.html */
+#experiencias{
+    margin: 25px;
+    text-align: justify;
+}
+.experiencias-text{
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    flex-direction: column;
 }
