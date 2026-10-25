@@ -139,7 +139,6 @@ filter: drop-shadow(0 35px 45px white);
     text-align: justify;
     gap: 25px;
     justify-content: center; 
-    flex-wrap: wrap;
 }
 #sectionIndex strong{
     color: var(--verde);
