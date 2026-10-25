@@ -326,3 +326,52 @@ filter: drop-shadow(0 35px 45px white);
     align-items: start;
     flex-direction: column;
 }
+.experiencias-h1{
+    padding-bottom: 25px;
+    font-size: 35px; 
+    font-weight:800; 
+    letter-spacing: 1.1px;
+}
+.experiencias-h2{
+    padding-bottom: 25px;
+    font-size: 25px; 
+    font-weight:800; 
+    letter-spacing: 1.1px;
+}
+.experiencias-p1{
+    padding-bottom: 25px;
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.6;    
+}
+.experiencias-p2{
+    padding-bottom: 25px;
+    font-size: 20px; 
+    font-weight:800; 
+    letter-spacing: 1.1px;    
+}
+.experiencias-cliente-pic{
+    width: 100%;
+    height: auto;
+    border-radius: 25%;
+    padding-bottom: 25px;
+}
+.experiencias-cliente-h2{
+    padding-bottom: 25px;
+    font-size: 25px; 
+    font-weight:800; 
+    letter-spacing: 1.1px;    
+}
+.experiencia-cuadro-general{
+    display: flex;
+    gap: 25px;
+}
+.clientes-text div{
+    padding-bottom: 15px;
+    font-weight: 400;    
+}
+.clientes-text p{
+    font-weight: 300;
+    font-size: 15px;    
+    letter-spacing: 1px;    
+}
